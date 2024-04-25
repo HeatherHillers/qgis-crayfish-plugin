@@ -183,7 +183,7 @@ class CrayfishPlotWidget(QWidget):
         self.markers = []      # for points
         self.rubberbands = []  # for lines
 
-        self.gw = pyqtgraph.GraphicsWindow()
+        self.gw = pyqtgraph.GraphicsLayoutWidget()
         self.plot = self.gw.addPlot()
         self.plot.showGrid(x=True, y=True)
         self.plot.addLegend()

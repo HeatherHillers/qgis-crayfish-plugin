@@ -70,7 +70,7 @@ class CrayfishPlot3dWidget(QWidget):
 
         self.markers = []  # for point
 
-        self.gw = pyqtgraph.GraphicsWindow()
+        self.gw = pyqtgraph.GraphicsLayoutWidget()
         self.plot = self.gw.addPlot()
         self.plot.showGrid(x=True, y=True)
         self.plot.addLegend()

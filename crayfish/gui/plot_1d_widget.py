@@ -151,7 +151,7 @@ class CrayfishPlot1dWidget(QWidget):
 
         self.markers = []      # for points
 
-        self.gw = pyqtgraph.GraphicsWindow()
+        self.gw = pyqtgraph.GraphicsLayoutWidget()
         self.plot = self.gw.addPlot()
         self.plot.showGrid(x=True, y=True)
         self.plot.addLegend()
